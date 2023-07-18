@@ -1,0 +1,34 @@
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card_inner{
+    width: 320px;
+    height: 270px;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:20px;
+}
+.card_inner img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+p{
+    background-color: transparent;
+}
+.price{
+    font-size: 45px;
+}
+.change{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
